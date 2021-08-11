@@ -1,0 +1,15 @@
+#pool-table {
+    border: 10px solid darkred;
+    border-radius: 10px;
+    background-color: green;
+    aspect-ratio: 2 / 1;
+    width: 60%;
+    display: block;
+    margin: auto;
+}
+
+.ball {
+    aspect-ratio: 1;
+    border-radius: 100%; /* rounds corners */
+    position: absolute;
+}
