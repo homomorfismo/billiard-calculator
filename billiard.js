@@ -34,7 +34,6 @@ for (let index = 0; index < 2; index++) {
 }
 
 // MOVE BALLS
-
 if(/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent)){
     // true for mobile device
     balls.forEach(ball => {
@@ -108,12 +107,6 @@ if(/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigat
         }    
     });
   }
-  
-
-
-
-// SUPPORT FOR MOBILE
-
 
 function marks() {
     let a = whiter.top - table.top,
@@ -126,8 +119,4 @@ function marks() {
     let right = (table.width - c)/(2*table.width - c - d)*(b-a);
 
     return [top, bottom, left, right];
-}   
-
-function set_mark(pos) {
-
-}
+} 
